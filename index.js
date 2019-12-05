@@ -76,9 +76,9 @@ function getName(arg) {
 */
 function makeSmartPerson(name) {
   return {"name":name,
-sum: (x,y)=>x+y,
-speak: () =>`Hello, my name is ${name}`
-}
+          sum: (x,y)=>x+y,
+          speak: () =>`Hello, my name is ${name}`
+        }
 }
 
 
@@ -140,7 +140,7 @@ function get3rdCar(inventory) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoByIndex(inventory, index) {
-  /* code here */
+  return `This is a ${inventory[index].car_make} ${inventory[index].car_model}`;
 }
 
 /**
