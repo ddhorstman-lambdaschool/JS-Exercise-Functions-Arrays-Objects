@@ -289,9 +289,9 @@ function getGermanCars(inventory) {
  *   return num * 2
  * }
 */
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+const sum = (a,b)=>a+b; // code here!
+const addFive = x=>x+5; // code here!
+const argTimesTwo = x=>x*2; // code here!
 
 /**
  * ### Challenge `carMaker`
